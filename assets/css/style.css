@@ -1,0 +1,247 @@
+        /* * * Use this file to override Materialize files so you can update * the core Materialize files in the future * * Made By MaterializeCSS.com */
+        
+        body {
+            background-color: #2A3D45;
+            font-family: 'Quicksand', sans-serif;
+            color: #DDC9B4;
+        }
+        .navbar {
+            background-color: #443D38;
+            height: 70px;
+            margin: 0;
+        }
+        .nav-wrapper container {
+            margin-left: auto;
+            height: auto;
+        }
+        .brand {
+            font-size: 30px;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 700;
+        }
+        /* nav ul a,
+        nav .brand-logo {
+            color: #444;
+            margin-left: 0 auto;
+            height: auto;
+        } */
+        /* #logo-container {
+            margin: 0 auto;
+        } */
+        #topcontainer {
+            height: auto;
+        }
+        #topphototext {
+            padding-top: 30px;
+            background-blend-mode: luminosity;
+            text-shadow: 2px 2px #ffffff;
+            color: #443D38;
+            font-weight: bold;
+            font-size: 34px;
+        }
+        .search-container {
+            height: auto;
+            margin: 0 10%;
+            padding: 0;
+        }
+        .search-header {
+            color: #DDC9B4;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .icon-block {
+            padding: 15px;
+        }
+        .icon-block .material-icons {
+            font-size: inherit;
+        }
+        button {
+            background-color: transparent;
+            border: 0px solid #443D38;
+            border-radius: 10px;
+        }
+        #doctorbutton, #walmartbutton, #eventsbutton {
+            color: #BCAC9B;
+        }
+        #doctorsearch {
+            text-align: center;
+        }
+        #doctorsearchresults {
+            display: table;
+            overflow: scroll;
+        }
+        #walmartsearch {
+            text-align: center;
+        }
+        #eventssearch {
+            text-align: center;
+        }
+        #bottomphototext {
+            background-blend-mode: luminosity;
+            text-shadow: 2px 2px#443D38;
+            color: #B2A8B5;
+            font-weight: bold;
+            font-size: 34px;
+        }
+        .content2 {
+            background-color:#2A3D45;
+        }
+        h4 {
+            color: #BCAC9B;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+
+
+
+
+        .about {
+            line-height: 2rem;
+            color:#BCAC9B;
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: justify;
+            padding: 0 10%;
+        }
+        
+        .sidenav-trigger {
+            color: #ffffff;
+        }
+        
+        .parallax-container {
+            min-height: 525px;
+            height: 90%;
+            line-height: 0;
+
+            color: #ffffff;
+        }
+        
+        .parallax-container .section {
+            width: 100%;
+            height: auto;
+        }
+        
+        @media only screen and (max-width: 992px) {
+            .parallax-container .section {
+                position: absolute;
+                top: 40%;
+            }
+            #index-banner .section {
+                top: 10%;
+            }
+        }
+        
+        @media only screen and (max-width: 600px) {
+            #index-banner .section {
+                top: 0;
+            }
+        }
+        
+
+        
+        .page-footer {
+            margin: 0;
+            background-color: #443D38;
+        }
+        
+        .page-footer .container {
+            width: 100%;
+        }
+
+
+        
+
+
+        
+
+        
+        #developers {
+            font-style: bold;
+            font-size: 20px;
+            font-weight: bold;
+            color: #BCAC9B;
+        }
+        
+        h5 {
+            text-align: center;
+            background-blend-mode: luminosity;
+            text-shadow: 2px 2px rgb(17, 17, 17);
+            color: #DDC9B4;
+            font-weight: bold;
+            font-size: 34px;
+        }
+        
+        .bio {
+            text-align: center;
+            /* width: 100px;
+            height: auto; */
+            
+        }
+
+        .bio-text {
+            font-size: 12px;
+            text-align: justify;
+            color: #BCAC9B;
+            padding: 0 20px;
+        }
+        
+        #aboutus {
+
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        /* img {
+            display: block;
+            margin: auto;
+        } */
+        
+        .footer-copyright {
+            text-align: center;
+        }
+        
+        #linkicons {
+            display: inline;
+        }
+
+        /* img .backsplash {
+            size: cover;
+            height: 100%;
+            overflow: hidden;
+        } */
+
+     .dev-names {
+        font-size: 15px;
+     }
+     .dev-icon {
+        margin: 0 auto;
+     }
+
+     form, input, .form-control {
+        color: #DDC9B4;
+     }
+     #returnBtn {
+         background-color: #7A6C5D;
+         /* border: 1px solid; */
+         border-radius: 2px;
+     }
+     #submitBtn {
+         background-color: #EFB22D;
+     }
+     label {
+         font-size: 14px;
+         color: #DDC9B4;
+     }
+    .search-title {
+        color: #DDC9B4;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    button:active {
+        background: none;
+    }
+    button:hover {
+        background: none;
+        color: #ffffff;
+    }
